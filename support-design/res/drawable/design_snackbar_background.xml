@@ -13,11 +13,10 @@
   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
--->
-<resources>
-    <!-- The class name to the ScrollingChildBehavior required for AppBarLayout -->
-    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <!-- The text pattern for the character counter -->
-    <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-</resources>
+  -->
 
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <corners android:radius="@dimen/design_snackbar_background_corner_radius"/>
+    <solid android:color="@color/design_snackbar_background_color"/>
+</shape>
